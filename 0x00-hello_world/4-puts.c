@@ -1,7 +1,9 @@
 #include<stdio.h>
+
 /**
  * main - is the entrypoint
- * return: always returns zero
+ *
+ * Return: always returns zero
  * 
  */
 int main(void)
