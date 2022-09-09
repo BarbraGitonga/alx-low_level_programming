@@ -7,20 +7,17 @@
  */
 int main(void)
 {
-	int main(void)
-	{
-		int i;
-		char ch;
+	int i;
+	char ch;
 
-		for (i = 0; i <= 9; ++i)
-		{
-			putchar('0' + (i));
-		}
-		for (ch = 'a'; ch <= 'f'; ++ch)
-		{
-			putchar(ch);
-			putchar('\n');
-		}
-		return (0);
+	for (i = 0; i <= 9; ++i)
+	{
+		putchar('0' + (i));
 	}
+	for (ch = 'a'; ch <= 'f'; ++ch)
+	{
+		putchar(ch);
+		putchar('\n');
+	}
+	return (0);
 }
