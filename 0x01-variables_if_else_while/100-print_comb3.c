@@ -14,8 +14,8 @@ int main(void)
 	{
 		for (j = '1'; j <= '9'; j++)
 		{
-			putchar(i % 10);
-			putchar(j % 10);
+			putchar((i % 10));
+			putchar((j % 10));
 			if (i == '8' && j == '9')
 			{
 				continue;
