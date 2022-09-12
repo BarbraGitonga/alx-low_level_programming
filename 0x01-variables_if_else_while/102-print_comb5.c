@@ -8,8 +8,6 @@ int main(void)
 {
 	int a;
 	int b;
-	int c;
-	int d;
 
 	for (a = 0; a <= 99; a++)
 	{
@@ -21,7 +19,7 @@ int main(void)
 				putchar((b % 10) + 48);
 				putchar(' ');
 				putchar((b / 10) + 48);
-				putchar((c % 10) + 48);
+				putchar((b % 10) + 48);
 				if ( a != 98 || b != 99)
 				{
 					putchar(',');
