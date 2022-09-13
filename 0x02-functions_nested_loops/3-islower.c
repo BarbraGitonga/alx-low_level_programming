@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks if code is lower
- * @c -argument to be considered
+ * @c: argument to be considered
  * Return: zero or one
  */
 int _islower(int c)
