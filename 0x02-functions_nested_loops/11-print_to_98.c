@@ -14,9 +14,16 @@ void print_to_98(int n)
 
 		for (i = n; i <= 98; i++)
 		{
-			if(i != 98)
+			if (i != 98)
 			{
-				printf("%d, ", i);
+				if (i < 10)
+				{
+					printf("%d, ", i);
+				}
+				else
+				{
+					printf("%d, ", i);
+				}
 			}
 			else if (i == 98)
 			{
@@ -24,7 +31,6 @@ void print_to_98(int n)
 			}
 
 		}
-		_putchar('\n');
 	}
 	else if (n > 98)
 	{
@@ -41,11 +47,10 @@ void print_to_98(int n)
 				printf("%d", j);
 			}
 		}
-		_putchar('\n');
 	}
 	else if (n == 98)
 	{
 		printf("%d", n);
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
