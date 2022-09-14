@@ -1,10 +1,8 @@
 #include "main.h"
-#include<stdio.h>
 
 /**
- * times_table - prints timetables upto the 9th
- *@void: does noot take argument
- * Return: always zero
+ * times_table - prints out the times table upto the 9th table.
+ * Return: void
  */
 void times_table(void)
 {
@@ -16,26 +14,20 @@ void times_table(void)
 		{
 			prod = i * j;
 
-			if (j != 0)
+			if ((prod / 10) == 0)
 			{
+				_putchar(prod + '0');
 				_putchar(',');
 				_putchar(' ');
 			}
-			else if (j == 0)
-			{
-				_putchar('0');
-			}
-			else if (prod >= 10)
+			else
 			{
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
-			}
-			else if ((prod < 10) && (j != 0))
-			{
+				_putchar(',');
 				_putchar(' ');
-				_putchar((prod % 10) + '0');
 			}
 		}
-	_putchar('\n');
+		_putchar('\n');
 	}
 }
