@@ -5,7 +5,7 @@
  *@n: number of lines
  *Return: void
  */
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	if (n > 0)
 	{
