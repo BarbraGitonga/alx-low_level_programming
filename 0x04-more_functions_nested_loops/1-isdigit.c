@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_isdigit - number between 0 to 9 
+ *_isdigit - number between 0 to 9
  *@c: intenger argument
  *Return: 0
  */
