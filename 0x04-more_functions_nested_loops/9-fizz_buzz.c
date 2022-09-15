@@ -11,8 +11,8 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		j = i % 3;
-		k = i % 5;
+		j = (i % 3);
+		k = (i % 5);
 		if (j == 0 && k == 0)
 		{
 			printf("FizzBuzz ");
@@ -21,11 +21,11 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		else if (k == 0 && i != 100)
+		else if (k == 0 && i != 100 && j != 0)
 		{
 			printf("Buzz ");
 		}
-		else if (k == 0 && i == 100)
+		else if (k == 0 && i == 100 && j != 0)
 		{
 			printf("Buzz");
 		}
