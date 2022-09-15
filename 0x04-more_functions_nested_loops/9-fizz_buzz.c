@@ -17,17 +17,21 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (j == 0)
+		else if (j == 0 && k != 0)
 		{
 			printf("Fizz ");
 		}
-		else if (k == 0)
+		else if (k == 0 && i != 100)
 		{
 			printf("Buzz ");
 		}
+		else if (k == 0 && i == 100)
+		{
+			printf("Buzz");
+		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d", i);
 		}
 	}
 }
