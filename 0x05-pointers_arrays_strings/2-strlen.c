@@ -17,6 +17,10 @@ int _strlen(char *s)
 		{
 			len = i;
 		}
+		else
+		{
+			return (0);
+		}
 	}
 	return (len + 1);
 }
