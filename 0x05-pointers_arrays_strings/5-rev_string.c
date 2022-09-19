@@ -21,8 +21,7 @@ void rev_string(char *s)
 		if (s[j] != '\0')
 		{
 			a = s[j];
-			_putchar(a);
 		}
 	}
-	_putchar('\n');
+	return (a);
 }
