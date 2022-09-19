@@ -19,7 +19,7 @@ void rev_string(char *s)
 	{
 		if (s[j] != '\0')
 		{
-			**s = s[j];
+			s = *s[j];
 		}
 	}
 }
