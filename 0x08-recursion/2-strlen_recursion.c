@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- *_strlen_recurion - length of string
+ *_strlen_recursion - length of string
  *@s: string to be reversed
- *
+ *Return: length
  */
 
 int _strlen_recursion(char *s)
 {
 	int i;
+
 	if (*s == '\0')
 	{
 		return (0);
