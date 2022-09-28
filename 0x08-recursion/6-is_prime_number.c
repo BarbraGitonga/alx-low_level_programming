@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *is_prime_number - detects is number is prime
+ *prime_checker - detects is number is prime
  *@n: number tested
  *Return: prime number
  */
-int is_prime_number(int n)
+int prime_checker(int n)
 {
 	if (i == 1)
 		return (1);
