@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *main - muktiplues two number sin the terminal.
+ *main - entry point
  *@argc: contaings number of arguments.
  *@argv: string fo arguments.
  *Return: 0 if multiplied nd 1 if there is an error
