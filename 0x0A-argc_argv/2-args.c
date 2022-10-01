@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  *main - print out a string of words terminal arguments.
