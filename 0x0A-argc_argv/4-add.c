@@ -1,13 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 
 /**
- *main - adds numbers
- *@argc: number of arguments
- *@argv: string of arguments
- *Return: 0 or 1
+ * main - Entry Point
+ * @argc: number of arguments
+ * @argv: array of arguents
  *
+ * Return: 0 if successful
  */
-int main(int argc, char *argv[])
+
+int main(int argc, char **argv)
 {
 	int num1, num2, sum = 0;
 
