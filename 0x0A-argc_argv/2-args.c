@@ -4,6 +4,7 @@
  *main - print out a string of words terminal arguments.
  *@argc: the total number of arguments.
  *@argv: this hild the strings the terminal.
+ *
  *Return: This returns 0
  */
 int main(int argc, char *argv[])
