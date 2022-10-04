@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *create array - reates an array of characters
+ *create_array - reates an array of characters
  *
  *@size: size of array
  *@c: character to be initialized
@@ -13,7 +13,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *array;
 	unsigned int i;
-	
+
 	array = malloc(sizeof(char) * size);
 	if (size == 0 || array == NULL)
 	{
