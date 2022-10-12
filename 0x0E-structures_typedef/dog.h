@@ -1,3 +1,6 @@
+#ifndef STRUCTS
+#define STRUCTS
+
 /**
  * struct dog - hold description a dog
  *@name: name of dog.
@@ -12,3 +15,12 @@ struct dog
 	float age;
 	char *owner;
 };
+
+#endif
+
+#ifndef _FUNCTIONS_H
+#define _FUNCTIONS_H
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
+#endif
