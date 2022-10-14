@@ -18,12 +18,12 @@ int op_add(int a, int b)
 }
 
 /**
- *op_sub - finds the difference between two arguments
+ * op_sub - finds the difference between two arguments
  *
  *@a: argument 1
  *@b: argument 2
  *
- * Returns: the difference between paramters passed.
+ * Return: the difference between paramters passed.
  */
 int op_sub(int a, int b)
 {
@@ -65,6 +65,15 @@ int op_div(int a, int b)
 	c = a / b;
 	return (c);
 }
+
+/**
+ *op_mod - gets modulus of arguments.
+ *
+ *@a: arg1.
+ *@b: arg2.
+ *
+ *Return: modulus
+ */
 int op_mod(int a, int b)
 {
 	int c;
