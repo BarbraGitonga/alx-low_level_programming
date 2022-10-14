@@ -1,15 +1,14 @@
-#include <stdio.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
- *new_dog - holds information of a dog
- * 
- * @name: name of dog.
- *@age: age of dog
- *@owner: name of owner of dog.
- *
- *Return: void
+ * new_dog - create a new dog
+ * @name: char string name
+ * @age: int age
+ * @owner: char string owner
+ * Return: pointer to new dog
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	struct dog *doge;
@@ -42,8 +41,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 		n[k] = name[k];
 	for (k = 0; k <= j; k++)
 		o[k] = owner[k];
+
 	doge->name = n;
 	doge->age = age;
 	doge->owner = o;
 
 	return (doge);
+}
