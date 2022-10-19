@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+/**
+ * sum_them_all - adds all integers passed
+ *
+ *@n: number of integers passed
+ *Return: sum of numbers or 0
+ */
 int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
