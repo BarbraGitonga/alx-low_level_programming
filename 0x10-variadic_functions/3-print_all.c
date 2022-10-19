@@ -3,7 +3,7 @@
 /**
  *print_all - prints anything
  *
- *@formart: list of argumets passed to the function
+ *@format: list of argumets passed to the function
  *
  *Return: void
  */
