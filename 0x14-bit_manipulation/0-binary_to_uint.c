@@ -1,9 +1,7 @@
-#include <math.h>
 #include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
 /**
- *power - thsi function gets the power of an integer..
+ *power - this function gets the power of an integer..
  *
  *@a: integer to be raised
  *@b: power of the integer.
